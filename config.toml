@@ -1,0 +1,48 @@
+baseUrl = ""
+languageCode = "ru"
+defaultContentLanguage = "ru"
+title = "DevБлог Устица"
+theme = "anubis"
+paginate = 10
+enableRobotsTXT = true
+
+[params]
+author = "Руслан Устиц"
+email = "ustitsruslan@gmail.com"
+description = ""
+dateFormat = "02 January 2006"
+paginationSinglePost = true
+style = "light"
+readMore = false
+disableSummary = false
+# utteranc.es support
+utterancesRepo = ""  # mandatory
+utterancesTheme = "" # optional
+utterancesIssue = "" # optional
+utterancesLabel = "" # optional
+
+[[params.social]]
+id = "github"
+name = "ustits"
+
+[[params.social]]
+id = "telegram"
+name = "ustits"
+
+# [[menu.main]]
+# name = "Archive"
+# identifier = "archive"
+# url = "/posts/"
+# weight = 0
+
+[languages.ru]
+languageName = "Русский"
+
+# [[languages.ru.menu.main]]
+# name = "Архив"
+# identifier = "archive"
+# url = "/posts/"
+# weight = 0
+
+[markup.goldmark.renderer]
+unsafe = true
