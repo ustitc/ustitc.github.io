@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on DevБлог Устица</title><link>/posts/</link><description>DevБлог Устица (Posts)</description><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Thu, 09 Sep 2021 00:41:22 +1100</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Еженедельный обзор № 1</title><link>/posts/weekly-1/</link><pubDate>Thu, 09 Sep 2021 00:41:22 +1100</pubDate><guid>/posts/weekly-1/</guid><description>&lt;p>&lt;strong>&lt;a href="https://www.youtube.com/watch?v=-VADIcicpcg">[Видео] Object Oriented Programming vs Functional Programming | Dave Farley&lt;/a>&lt;/strong>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on DevБлог Устица</title><link>/posts/</link><description>DevБлог Устица (Posts)</description><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Thu, 16 Sep 2021 00:41:22 +1100</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Еженедельный обзор № 2</title><link>/posts/weekly-2/</link><pubDate>Thu, 16 Sep 2021 00:41:22 +1100</pubDate><guid>/posts/weekly-2/</guid><description>&lt;p>&lt;strong>&lt;a href="https://www.youtube.com/watch?v=SisRFSKI4iI">[Видео] SSD 1/16: README vs. IEEE | Егор Бугаенко&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>Первая лекция из серии про разработку ПО. Про важность документирования архитектуры.&lt;/p>
+&lt;blockquote>
+&lt;p>Если я тебя не понимаю, то это твоя вина.&lt;/p>
+&lt;/blockquote>
+&lt;p>Наши документы должны содержать достаточный контекст, чтобы его мог понять любой специалист.&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://blog.frankel.ch/metrics/">[Статья] On metrics | Nicolas Fränkel&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>Предупреждение для разработчиков, чтобы они были аккуратны в выборе метрик. Плохие - не принесут пользы, хорошие - станут самоцелью.&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://habr.com/ru/post/577440/">[Статья] Коммерческая разработка&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>То что мы кодим для себя дома не равно тому, что мы делаем на работе. В первом случае нас двигает любопытство, во втором нас толкают деньги.&lt;/p></description></item><item><title>Еженедельный обзор № 1</title><link>/posts/weekly-1/</link><pubDate>Thu, 09 Sep 2021 00:41:22 +1100</pubDate><guid>/posts/weekly-1/</guid><description>&lt;p>&lt;strong>&lt;a href="https://www.youtube.com/watch?v=-VADIcicpcg">[Видео] Object Oriented Programming vs Functional Programming | Dave Farley&lt;/a>&lt;/strong>&lt;/p>
 &lt;p>Парадигма разработки - это правила, которые защищают нас от ошибок, но не защищают от плохого кода.&lt;/p>
 &lt;blockquote>
 &lt;p>Плохой код можно писать в любой парадигме&lt;/p>
