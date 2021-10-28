@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DevБлог Устица</title><link>/</link><description>DevБлог Устица</description><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Thu, 21 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Еженедельный обзор № 6</title><link>/posts/weekly-6/</link><pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate><guid>/posts/weekly-6/</guid><description>&lt;p>&lt;strong>&lt;a href="https://www.fredrikholmqvist.com/pages/why-i-hate-frameworks.html">[Статья] Why I Hate Frameworks&lt;/a>&lt;/strong>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DevБлог Устица</title><link>/</link><description>DevБлог Устица</description><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Thu, 28 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Еженедельный обзор № 7</title><link>/posts/weekly-7/</link><pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate><guid>/posts/weekly-7/</guid><description>&lt;p>&lt;strong>&lt;a href="https://www.quastor.org/p/how-whatsapp-scaled-to-1-billion">[Статья] How WhatsApp scaled to 1 billion users with only 50 engineers&lt;/a>&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>Инженерная культура WhatsApp состоит из 3 принципов&lt;/p>
+&lt;ul>
+&lt;li>Меньше&lt;/li>
+&lt;li>Проще&lt;/li>
+&lt;li>Сосредоточенность на миссии&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>С точки зрения разработки интересны первые два. Первый, когда свою работу пытаемся решить увеличением количества &lt;a href="https://devrant.com/rants/627533/what-one-programmer-can-do-in-one-month-two-programmers-can-do-in-two-months-fre">людей&lt;/a> или &lt;a href="https://endler.dev/2019/maybe-you-dont-need-kubernetes/">серверов&lt;/a>. Второй любят спрашивать на &lt;a href="https://ru.wikipedia.org/wiki/KISS_(%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF)">собеседованиях&lt;/a>, не использовать в &lt;a href="https://www.fredrikholmqvist.com/pages/why-i-hate-frameworks.html">работе&lt;/a>, а также тесно связана с &lt;a href="https://fredrikholmqvist.com/posts/brooks-wirth-go/">магией (сложными инструментами)&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://borretti.me/article/languages-not-ecosystems">[Статья] Languages are not Ecosystems | Fernando Borretti&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>Автор делит софтверные проекты на раннюю и позднюю фазы. На первой мы фокусируемся на фреймворках и библиотеках (экосистема), чтобы быстрее решить задачу, на второй мы &amp;ldquo;рефакторим&amp;rdquo; и важнее становится язык как инструмент передачи мысли.&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://github.blog/2015-01-21-how-to-write-the-perfect-pull-request/">[Статья] How to write the perfect pull request&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>Гайды github по ведению PR-ов. Из интересного:&lt;/p>
+&lt;blockquote>
+&lt;p>Помните о негативной предвзятости при онлайн-общении. (Если текст нейтральный, мы предполагаем, что тон будет отрицательным.) Можете ли вы использовать положительный язык, а не нейтральный?&lt;/p>
+&lt;/blockquote>
+&lt;p>Восприятие наших комментариев зависит от эмоций человека по ту сторону экрана.&lt;/p>
+&lt;blockquote>
+&lt;p>Используйте emoji, чтобы прояснить тон&lt;/p>
+&lt;/blockquote>
+&lt;p>Реальность такова, что &lt;a href="https://ru.wikipedia.org/wiki/%D0%98%D0%B4%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0">идеограммы&lt;/a> прочно осели в культуре и людям без них тяжелее нас понять и легче обидеться.&lt;/p></description></item><item><title>Еженедельный обзор № 6</title><link>/posts/weekly-6/</link><pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate><guid>/posts/weekly-6/</guid><description>&lt;p>&lt;strong>&lt;a href="https://www.fredrikholmqvist.com/pages/why-i-hate-frameworks.html">[Статья] Why I Hate Frameworks&lt;/a>&lt;/strong>&lt;/p>
 &lt;p>Проблема фреймворков расказанная в виде истории о молотке. К чему может привести погоня за унификацией и обобщением&lt;/p>
 &lt;p>&lt;strong>&lt;a href="https://scribe.rip/p/what-every-software-engineer-should-know-about-search-27d1df99f80d">[Статья] What every software engineer should know about search&lt;/a>&lt;/strong>&lt;/p>
 &lt;p>Инструкция по тому как собрать свою поисковую систему&lt;/p></description></item><item><title>Еженедельный обзор № 5</title><link>/posts/weekly-5/</link><pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate><guid>/posts/weekly-5/</guid><description>&lt;p>&lt;strong>&lt;a href="https://blog.scottlogic.com/2021/09/30/Collective-Code-Ownership.html">[Статья] Capitalism, Socialism, and Code Ownership&lt;/a>&lt;/strong>&lt;/p>
