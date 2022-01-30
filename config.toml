@@ -26,6 +26,10 @@ id = "github"
 name = "ustits"
 
 [[params.social]]
+id = "twitter"
+name = "r_ustits"
+
+[[params.social]]
 id = "telegram"
 name = "ustits"
 
