@@ -62,4 +62,10 @@
 &lt;p>&lt;strong>Группирока страниц по сайтам&lt;/strong>&lt;/p>
 &lt;p>&lt;img src="/img/bonsaibrowser1.png" alt="Группирока страниц по сайтам">&lt;/p>
 &lt;p>&lt;strong>Workspace-ы&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="/img/bonsaibrowser2.png" alt="Workspace-ы">&lt;/p></description></item></channel></rss>
+&lt;p>&lt;img src="/img/bonsaibrowser2.png" alt="Workspace-ы">&lt;/p></description></item><item><title/><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description>&lt;p>Йо!&lt;/p>
+&lt;p>Руслан, пишу бекенды, в основном на Kotlin и Java.&lt;/p></description></item><item><title/><link>/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/projects/</guid><description>&lt;h2 id="krefty">krefty&lt;/h2>
+&lt;p>&lt;a href="https://github.com/ustits/krefty">Github&lt;/a>&lt;/p>
+&lt;p>Экспериментальный DSL для &lt;a href="https://en.wikipedia.org/wiki/Refinement_type">Refined типов&lt;/a> на Kotlin.&lt;/p>
+&lt;h2 id="dinf">dinf&lt;/h2>
+&lt;p>&lt;a href="https://dinf.ustits.dev">Сайт&lt;/a> и &lt;a href="https://github.com/ustits/dinf">Github&lt;/a>&lt;/p>
+&lt;p>Инструмент для вдохновения dungeon master-ов и других творческих деятелей путем генерации случайных данных.&lt;/p></description></item></channel></rss>
