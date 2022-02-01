@@ -33,11 +33,23 @@ name = "r_ustits"
 id = "telegram"
 name = "ustits"
 
-# [[menu.main]]
-# name = "Archive"
-# identifier = "archive"
-# url = "/posts/"
-# weight = 0
+[[menu.main]]
+name = "Статьи"
+identifier = "posts"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Проекты"
+identifier = "projects"
+url = "/projects/"
+weight = 2
+
+[[menu.main]]
+name = "Обо мне"
+identifier = "about"
+url = "/about/"
+weight = 3
 
 [languages.ru]
 languageName = "Русский"
