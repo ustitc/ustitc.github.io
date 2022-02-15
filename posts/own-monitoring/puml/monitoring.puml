@@ -1,0 +1,31 @@
+@startuml
+
+skinparam roundCorner 15
+
+node app_server as "App server" {
+  rectangle node_e as "Node exporter" #ccbb33
+  rectangle nginx_e as "Nginx exporter" #ccbb33
+  rectangle nginx as "Nginx"
+  rectangle Application [
+Application
+....
+Предоставляет метрики 
+в формате prometheus
+]
+}
+
+node "Monitoring server" {
+  rectangle prometheus as "Prometheus" #ff6644
+  rectangle blackbox_e as "Blackbox exporter" #ccbb33
+}
+
+nginx_e --> nginx : Собирает метрики nginx
+node_e --> app_server : Собирает метрики OS
+blackbox_e --> nginx : Проверяет доступность приложения \n и SSL сертификаты
+nginx --> Application : Проксирует запросы
+prometheus --> node_e
+prometheus --> nginx_e
+prometheus --> blackbox_e
+prometheus --> Application
+
+@enduml

@@ -1,0 +1,21 @@
+@startuml
+
+skinparam roundCorner 15
+
+actor admin as "Admin"
+
+node "Monitoring server" {
+  rectangle loki as "Loki"
+  rectangle prometheus as "Prometheus"
+  rectangle grafana as "Grafana"
+}
+
+rectangle telegram_bot as "Telegram bot"
+
+admin -> grafana : Смотрит графики
+admin -> telegram_bot : Смотрит ошибки 
+grafana --> prometheus
+grafana --> loki
+grafana ..> telegram_bot : Оповещает об ошибках
+
+@enduml
