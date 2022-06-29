@@ -3,7 +3,7 @@ languageCode = "ru"
 defaultContentLanguage = "ru"
 title = "DevБлог Устица"
 theme = "anubis"
-paginate = 10
+paginate = 5
 enableRobotsTXT = true
 
 [params]
@@ -33,6 +33,9 @@ name = "r_ustits"
 id = "telegram"
 name = "ustits"
 
+[languages.ru]
+languageName = "Русский"
+
 [[menu.main]]
 name = "Статьи"
 identifier = "posts"
@@ -51,14 +54,31 @@ identifier = "about"
 url = "/about/"
 weight = 3
 
-[languages.ru]
-languageName = "Русский"
+[languages.en]
+languageName = "English"
+title = "Ustits's DevBlog"
+author = "Ruslan Ustits"
 
-# [[languages.ru.menu.main]]
-# name = "Архив"
-# identifier = "archive"
-# url = "/posts/"
-# weight = 0
+[[languages.en.menu.main]]
+name = "Articles"
+identifier = "posts"
+url = "/"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "Projects"
+identifier = "projects"
+url = "/projects/"
+weight = 2
+
+[[languages.en.menu.main]]
+name = "About me"
+identifier = "about"
+url = "/about/"
+weight = 3
+
+[[languages.en.params]]
+locale = "en-us"
 
 [markup.goldmark.renderer]
 unsafe = true

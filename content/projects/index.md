@@ -9,3 +9,9 @@
 [Сайт](https://dinf.ustits.dev) и [Github](https://github.com/ustits/dinf) 
 
 Инструмент для вдохновения dungeon master-ов и других творческих деятелей путем генерации случайных данных. 
+
+## rando
+
+[Сайт](https://rando.ustits.dev) и [Github](https://github.com/ustits/rando) 
+
+Todo-шник который позволяет делать только 1 дело за раз.
