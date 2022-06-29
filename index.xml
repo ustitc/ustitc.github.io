@@ -113,4 +113,7 @@
 &lt;p>Экспериментальный DSL для &lt;a href="https://en.wikipedia.org/wiki/Refinement_type">Refined типов&lt;/a> на Kotlin.&lt;/p>
 &lt;h2 id="dinf">dinf&lt;/h2>
 &lt;p>&lt;a href="https://dinf.ustits.dev">Сайт&lt;/a> и &lt;a href="https://github.com/ustits/dinf">Github&lt;/a>&lt;/p>
-&lt;p>Инструмент для вдохновения dungeon master-ов и других творческих деятелей путем генерации случайных данных.&lt;/p></description></item></channel></rss>
+&lt;p>Инструмент для вдохновения dungeon master-ов и других творческих деятелей путем генерации случайных данных.&lt;/p>
+&lt;h2 id="rando">rando&lt;/h2>
+&lt;p>&lt;a href="https://rando.ustits.dev">Сайт&lt;/a> и &lt;a href="https://github.com/ustits/rando">Github&lt;/a>&lt;/p>
+&lt;p>Todo-шник который позволяет делать только 1 дело за раз.&lt;/p></description></item></channel></rss>
