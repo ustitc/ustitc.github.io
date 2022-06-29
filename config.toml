@@ -1,4 +1,4 @@
-baseUrl = ""
+baseUrl = "https://blog.ustits.dev"
 languageCode = "ru"
 defaultContentLanguage = "ru"
 title = "DevБлог Устица"
@@ -10,11 +10,11 @@ enableRobotsTXT = true
 author = "Руслан Устиц"
 email = "ustitsruslan@gmail.com"
 description = ""
-dateFormat = "02 January 2006"
+dateFormat = "2006-01-02"
 paginationSinglePost = false
 style = "light"
 readMore = false
-disableSummary = false
+disableSummary = true
 # utteranc.es support
 utterancesRepo = ""  # mandatory
 utterancesTheme = "" # optional
