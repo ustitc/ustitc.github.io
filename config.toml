@@ -54,6 +54,12 @@ identifier = "about"
 url = "/about/"
 weight = 3
 
+[[menu.main]]
+name = "CV"
+identifier = "cv"
+url = "/cv/ustits_cv.pdf"
+weight = 4
+
 [languages.en]
 languageName = "English"
 title = "Ustits's DevBlog"
@@ -76,6 +82,12 @@ name = "About me"
 identifier = "about"
 url = "/about/"
 weight = 3
+
+[[languages.en.menu.main]]
+name = "CV"
+identifier = "cv"
+url = "/cv/ustits_cv.pdf"
+weight = 4
 
 [[languages.en.params]]
 locale = "en-us"
