@@ -15,3 +15,9 @@
 [Сайт](https://rando.ustits.dev) и [Github](https://github.com/ustits/rando) 
 
 Todo-шник который позволяет делать только 1 дело за раз.
+
+## anyra
+
+[Github](https://github.com/ustits/anyra)
+
+Сервер с различными видами рандомизации.
