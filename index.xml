@@ -108,7 +108,9 @@
 &lt;p>&lt;img src="https://blog.ustits.dev/img/bonsaibrowser1.png" alt="Группирока страниц по сайтам">&lt;/p>
 &lt;p>&lt;strong>Workspace-ы&lt;/strong>&lt;/p>
 &lt;p>&lt;img src="https://blog.ustits.dev/img/bonsaibrowser2.png" alt="Workspace-ы">&lt;/p></description></item><item><title/><link>https://blog.ustits.dev/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.ustits.dev/about/</guid><description>&lt;p>Йо!&lt;/p>
-&lt;p>Руслан, пишу бекенды, в основном на Kotlin и Java.&lt;/p></description></item><item><title/><link>https://blog.ustits.dev/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.ustits.dev/projects/</guid><description>&lt;h2 id="krefty">krefty&lt;/h2>
+&lt;p>Руслан, пишу бекенды, в основном на Kotlin и Java.&lt;/p>
+&lt;p>Чем интересуюсь и в чем имею опыт:&lt;/p>
+&lt;p>&lt;img src="https://blog.ustits.dev/img/specialist.jpeg" alt="Specialist mind-map">&lt;/p></description></item><item><title/><link>https://blog.ustits.dev/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.ustits.dev/projects/</guid><description>&lt;h2 id="krefty">krefty&lt;/h2>
 &lt;p>&lt;a href="https://github.com/ustits/krefty">Github&lt;/a>&lt;/p>
 &lt;p>Экспериментальный DSL для &lt;a href="https://en.wikipedia.org/wiki/Refinement_type">Refined типов&lt;/a> на Kotlin.&lt;/p>
 &lt;h2 id="dinf">dinf&lt;/h2>

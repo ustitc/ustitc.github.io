@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ustits's DevBlog</title><link>https://blog.ustits.dev/en/</link><description>Ustits's DevBlog</description><generator>Hugo -- gohugo.io</generator><language>ru</language><atom:link href="https://blog.ustits.dev/en/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://blog.ustits.dev/en/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.ustits.dev/en/about/</guid><description>&lt;p>Yo!&lt;/p>
-&lt;p>Ruslan, developing backends, mainly in Kotlin and Java.&lt;/p></description></item><item><title/><link>https://blog.ustits.dev/en/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.ustits.dev/en/projects/</guid><description>&lt;h2 id="krefty">krefty&lt;/h2>
+&lt;p>Ruslan, developing backends, mainly in Kotlin and Java.&lt;/p>
+&lt;p>In what I am interested and experienced in:&lt;/p>
+&lt;p>&lt;img src="https://blog.ustits.dev/img/specialist.jpeg" alt="Specialist mind-map">&lt;/p></description></item><item><title/><link>https://blog.ustits.dev/en/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.ustits.dev/en/projects/</guid><description>&lt;h2 id="krefty">krefty&lt;/h2>
 &lt;p>&lt;a href="https://github.com/ustits/krefty">Github&lt;/a>&lt;/p>
 &lt;p>Experimental DSL for &lt;a href="https://en.wikipedia.org/wiki/Refinement_type">Refined types&lt;/a> in Kotlin.&lt;/p>
 &lt;h2 id="dinf">dinf&lt;/h2>
