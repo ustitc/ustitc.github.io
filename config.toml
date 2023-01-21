@@ -33,6 +33,14 @@ name = "r_ustits"
 id = "telegram"
 name = "ustits"
 
+[[params.social]]
+id = "linkedin"
+name = "ustits"
+
+[[params.social]]
+id = "goodreads"
+url = "https://www.goodreads.com/ustits"
+
 [languages.ru]
 languageName = "Русский"
 
