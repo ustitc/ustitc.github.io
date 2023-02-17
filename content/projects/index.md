@@ -1,23 +1,27 @@
-## krefty
+# krefty
 
 [Github](https://github.com/ustits/krefty)
 
 Экспериментальный DSL для [Refined типов](https://en.wikipedia.org/wiki/Refinement_type) на Kotlin. 
 
-## dinf
+# dinf
 
 [Сайт](https://dinf.ustits.dev) и [Github](https://github.com/ustits/dinf) 
 
 Инструмент для вдохновения dungeon master-ов и других творческих деятелей путем генерации случайных данных. 
 
-## rando
-
-[Сайт](https://rando.ustits.dev) и [Github](https://github.com/ustits/rando) 
-
-Todo-шник который позволяет делать только 1 дело за раз.
-
 ## anyra
 
 [Github](https://github.com/ustits/anyra)
 
-Сервер с различными видами рандомизации.
+Сервер и CLI утилита с различными видами рандомизации.
+
+---
+
+# Архив
+
+# rando
+
+[Github](https://github.com/ustits/rando) 
+
+Устав от приоритизация, сделал тудушник, который выбирает 1-у рандомную задачу и позволяет работать только над ней. Эксперимент был забавный, но непрактичный.
