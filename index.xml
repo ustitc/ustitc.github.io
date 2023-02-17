@@ -110,15 +110,17 @@
 &lt;p>&lt;img src="https://blog.ustits.dev/img/bonsaibrowser2.png" alt="Workspace-ы">&lt;/p></description></item><item><title/><link>https://blog.ustits.dev/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.ustits.dev/about/</guid><description>&lt;p>Йо!&lt;/p>
 &lt;p>Руслан, пишу бекенды, в основном на Kotlin и Java.&lt;/p>
 &lt;p>Чем интересуюсь и в чем имею опыт:&lt;/p>
-&lt;p>&lt;img src="https://blog.ustits.dev/img/specialist.jpeg" alt="Specialist mind-map">&lt;/p></description></item><item><title/><link>https://blog.ustits.dev/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.ustits.dev/projects/</guid><description>&lt;h2 id="krefty">krefty&lt;/h2>
+&lt;p>&lt;img src="https://blog.ustits.dev/img/specialist.jpeg" alt="Specialist mind-map">&lt;/p></description></item><item><title/><link>https://blog.ustits.dev/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.ustits.dev/projects/</guid><description>&lt;h1 id="krefty">krefty&lt;/h1>
 &lt;p>&lt;a href="https://github.com/ustits/krefty">Github&lt;/a>&lt;/p>
 &lt;p>Экспериментальный DSL для &lt;a href="https://en.wikipedia.org/wiki/Refinement_type">Refined типов&lt;/a> на Kotlin.&lt;/p>
-&lt;h2 id="dinf">dinf&lt;/h2>
+&lt;h1 id="dinf">dinf&lt;/h1>
 &lt;p>&lt;a href="https://dinf.ustits.dev">Сайт&lt;/a> и &lt;a href="https://github.com/ustits/dinf">Github&lt;/a>&lt;/p>
 &lt;p>Инструмент для вдохновения dungeon master-ов и других творческих деятелей путем генерации случайных данных.&lt;/p>
-&lt;h2 id="rando">rando&lt;/h2>
-&lt;p>&lt;a href="https://rando.ustits.dev">Сайт&lt;/a> и &lt;a href="https://github.com/ustits/rando">Github&lt;/a>&lt;/p>
-&lt;p>Todo-шник который позволяет делать только 1 дело за раз.&lt;/p>
 &lt;h2 id="anyra">anyra&lt;/h2>
 &lt;p>&lt;a href="https://github.com/ustits/anyra">Github&lt;/a>&lt;/p>
-&lt;p>Сервер с различными видами рандомизации.&lt;/p></description></item></channel></rss>
+&lt;p>Сервер и CLI утилита с различными видами рандомизации.&lt;/p>
+&lt;hr>
+&lt;h1 id="архив">Архив&lt;/h1>
+&lt;h1 id="rando">rando&lt;/h1>
+&lt;p>&lt;a href="https://github.com/ustits/rando">Github&lt;/a>&lt;/p>
+&lt;p>Устав от приоритизация, сделал тудушник, который выбирает 1-у рандомную задачу и позволяет работать только над ней. Эксперимент был забавный, но непрактичный.&lt;/p></description></item></channel></rss>
