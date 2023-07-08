@@ -37,35 +37,36 @@ params:
     - id: goodreads
       url: 'https://www.goodreads.com/ustits'
 
-menu:
-  main:
-    - name: Статьи
-      identifier: posts
-      url: /
-      weight: 1
-    - name: Проекты
-      identifier: projects
-      url: /projects/
-      weight: 2
-    - name: Обо мне
-      identifier: about
-      url: /about/
-      weight: 3
-    - name: CV
-      identifier: cv
-      url: /cv/ustits_cv.pdf
-      weight: 4
-
 defaultContentLanguage: "ru"
 languages:
   ru:
     languageName: "Русский"
     title: "DevБлог Устица"
-    author: "Руслан Устиц"
+    params:
+      author: "Руслан Устиц"
+    menu:
+      main:
+        - name: Статьи
+          identifier: posts
+          url: /
+          weight: 1
+        - name: Проекты
+          identifier: projects
+          url: /projects/
+          weight: 2
+        - name: Обо мне
+          identifier: about
+          url: /about/
+          weight: 3
+        - name: CV
+          identifier: cv
+          url: /cv/ustits_cv.pdf
+          weight: 4
   en:
     languageName: "English"
     title: "Ustits's DevBlog"
-    author: "Ruslan Ustits"
+    params:
+      author: "Ruslan Ustits"
     menu:
       main:
         - name: Articles
