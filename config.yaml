@@ -1,0 +1,91 @@
+baseUrl: "https://blog.ustits.dev"
+theme: "anubis"
+paginate: 5
+enableRobotsTXT: true
+
+params:
+  email: "ustitsruslan@gmail.com"
+  description: ""
+  dateFormat: "2006-01-02"
+  paginationSinglePost: false
+  style: light
+  readMore: false
+  disableSummary: true
+  toc: false
+  tocWordCount: 300
+  copyCodeButton: true
+  rssAsSocialIcon: false
+  mathjax: false
+  utterancesRepo: ""
+  utterancesTheme: ""
+  utterancesIssue: ""
+  utterancesLabel: ""
+  graphcommentId: ""
+  isso:
+    enabled: false
+  UmamiAnalytics:
+    enabled: false
+  social:
+    - id: github
+      name: ustits
+    - id: twitter
+      name: r_ustits
+    - id: telegram
+      name: ustits
+    - id: linkedin
+      name: ustits
+    - id: goodreads
+      url: 'https://www.goodreads.com/ustits'
+
+menu:
+  main:
+    - name: Статьи
+      identifier: posts
+      url: /
+      weight: 1
+    - name: Проекты
+      identifier: projects
+      url: /projects/
+      weight: 2
+    - name: Обо мне
+      identifier: about
+      url: /about/
+      weight: 3
+    - name: CV
+      identifier: cv
+      url: /cv/ustits_cv.pdf
+      weight: 4
+
+defaultContentLanguage: "ru"
+languages:
+  ru:
+    languageName: "Русский"
+    title: "DevБлог Устица"
+    author: "Руслан Устиц"
+  en:
+    languageName: "English"
+    title: "Ustits's DevBlog"
+    author: "Ruslan Ustits"
+    menu:
+      main:
+        - name: Articles
+          identifier: posts
+          url: /
+          weight: 1
+        - name: Projects
+          identifier: projects
+          url: /projects/
+          weight: 2
+        - name: About me
+          identifier: about
+          url: /about/
+          weight: 3
+        - name: CV
+          identifier: cv
+          url: /cv/ustits_cv.pdf
+          weight: 4
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
