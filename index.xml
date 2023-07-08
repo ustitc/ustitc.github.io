@@ -17,8 +17,13 @@
 &lt;li>Exporters&lt;/li>
 &lt;li>Promtail&lt;/li>
 &lt;/ul>
-&lt;h2 id="как-собирать">Как собирать&lt;/h2>
-&lt;p>&lt;a href="https://prometheus.io/docs/instrumenting/exporters/">Prometheus exporters&lt;/a> - то, что будет собирать метрики и представлять в виде http эндпоинтов. Можно подобрать из &lt;a href="https://prometheus.io/docs/instrumenting/exporters/">большого списка&lt;/a>. Какие использовал:&lt;/p>
+&lt;h2 id="как-собирать" >Как собирать
+&lt;span>
+&lt;a href="#%d0%ba%d0%b0%d0%ba-%d1%81%d0%be%d0%b1%d0%b8%d1%80%d0%b0%d1%82%d1%8c">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>&lt;a href="https://prometheus.io/docs/instrumenting/exporters/">Prometheus exporters&lt;/a> - то, что будет собирать метрики и представлять в виде http эндпоинтов. Можно подобрать из &lt;a href="https://prometheus.io/docs/instrumenting/exporters/">большого списка&lt;/a>. Какие использовал:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/nginxinc/nginx-prometheus-exporter">nginx_exporter&lt;/a> - проверяет жив ли nginx и какая на нем нагрузка&lt;/li>
 &lt;li>&lt;a href="https://github.com/prometheus/blackbox_exporter">blackbox_exporter&lt;/a> - ходит на указанные хосты, проверяет что они живы и их ssl сертификаты&lt;/li>
@@ -26,22 +31,42 @@
 &lt;/ul>
 &lt;p>Также метрики можно отдавать напрямую с разработанных сервисов в формате prometheus. Для этого есть &lt;a href="https://prometheus.io/docs/instrumenting/clientlibs/">prometheus библиотеки&lt;/a> или, если хочется гибкости, &lt;a href="https://micrometer.io/docs">фасады&lt;/a> которые абстрагируются от потребителя метрик, т.е. можно потом хоть в вышеупомянутые SaaS-ы загонять их.&lt;/p>
 &lt;p>Для логов взял &lt;a href="https://grafana.com/docs/loki/latest/clients/promtail/">Promtail&lt;/a>, которому достаточно передать список файлов, за которыми надо следить.&lt;/p>
-&lt;h2 id="как-хранить">Как хранить&lt;/h2>
-&lt;p>&lt;a href="https://prometheus.io">Prometheus&lt;/a> - БД метрик. По http ходит в экспортеры и сохраняет слепок метрик в привязке к текущему времени. По умолчанию хранит рядом с собой, но можно на &lt;a href="https://prometheus.io/docs/operating/integrations/#remote-endpoints-and-storage">выделенных хранилищах&lt;/a> таких как InfluxDB, или, если вы большой дядька, Kafka.&lt;/p>
+&lt;h2 id="как-хранить" >Как хранить
+&lt;span>
+&lt;a href="#%d0%ba%d0%b0%d0%ba-%d1%85%d1%80%d0%b0%d0%bd%d0%b8%d1%82%d1%8c">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>&lt;a href="https://prometheus.io">Prometheus&lt;/a> - БД метрик. По http ходит в экспортеры и сохраняет слепок метрик в привязке к текущему времени. По умолчанию хранит рядом с собой, но можно на &lt;a href="https://prometheus.io/docs/operating/integrations/#remote-endpoints-and-storage">выделенных хранилищах&lt;/a> таких как InfluxDB, или, если вы большой дядька, Kafka.&lt;/p>
 &lt;p>&lt;img src="images/metric_schema.png" alt="Deployment схема метрик">&lt;/p>
 &lt;p>С логами схема обратная. Promtail собирает логи и отправляет их в &lt;a href="https://grafana.com/oss/loki/">Loki&lt;/a>, который выступает в качестве БД. Также как и прометей может делегировать хранение в другие хранилища, например Cassandra или AWS S3.&lt;/p>
 &lt;p>Чтобы не забивать диски настроил &lt;a href="https://grafana.com/docs/loki/latest/operations/storage/table-manager/">table manager&lt;/a> подчищать логи каждые 7 дней.&lt;/p>
 &lt;p>&lt;img src="images/logging_schema.png" alt="Deployment схема логирования">&lt;/p>
-&lt;h2 id="как-визуализировать">Как визуализировать&lt;/h2>
-&lt;p>Для красивых графиков (дашбордов) взял &lt;a href="https://grafana.com">Grafana&lt;/a>, т.к. она отлично из коробки умеет работать как с Prometheus, так и с Loki. Приятно, что большая часть дашбордов уже готовы, не надо собирать самому. Например, дашборды &lt;a href="https://grafana.com/grafana/dashboards/1860">сервера&lt;/a>, &lt;a href="https://grafana.com/grafana/dashboards/4701">JVM&lt;/a> и &lt;a href="https://grafana.com/grafana/dashboards/13407">Loki&lt;/a>.&lt;/p>
+&lt;h2 id="как-визуализировать" >Как визуализировать
+&lt;span>
+&lt;a href="#%d0%ba%d0%b0%d0%ba-%d0%b2%d0%b8%d0%b7%d1%83%d0%b0%d0%bb%d0%b8%d0%b7%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d1%82%d1%8c">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>Для красивых графиков (дашбордов) взял &lt;a href="https://grafana.com">Grafana&lt;/a>, т.к. она отлично из коробки умеет работать как с Prometheus, так и с Loki. Приятно, что большая часть дашбордов уже готовы, не надо собирать самому. Например, дашборды &lt;a href="https://grafana.com/grafana/dashboards/1860">сервера&lt;/a>, &lt;a href="https://grafana.com/grafana/dashboards/4701">JVM&lt;/a> и &lt;a href="https://grafana.com/grafana/dashboards/13407">Loki&lt;/a>.&lt;/p>
 &lt;p>&lt;img src="images/web_metrics.png" alt="Просмотр метрик с браузера">&lt;/p>
 &lt;p>С мобилки тоже работает:&lt;/p>
 &lt;p>&lt;img src="images/mobile_logs.jpeg" alt="Просмотр логов с мобилки">&lt;/p>
 &lt;p>&lt;img src="images/mobile_metrics.png" alt="Просмотр метрик с мобилки">&lt;/p>
-&lt;h2 id="как-не-проспать-катастрофу">Как не проспать катастрофу&lt;/h2>
-&lt;p>В Grafana в web ui набросал alert-ы и присоединил их к &lt;a href="https://gist.github.com/ilap/cb6d512694c3e4f2427f85e4caec8ad7">Telegram-боту&lt;/a>. Просто и удобно.&lt;/p>
-&lt;h2 id="что-получилось">Что получилось&lt;/h2>
-&lt;p>&lt;img src="images/all_schema.png" alt="Deployment схема мониторинга">&lt;/p>
+&lt;h2 id="как-не-проспать-катастрофу" >Как не проспать катастрофу
+&lt;span>
+&lt;a href="#%d0%ba%d0%b0%d0%ba-%d0%bd%d0%b5-%d0%bf%d1%80%d0%be%d1%81%d0%bf%d0%b0%d1%82%d1%8c-%d0%ba%d0%b0%d1%82%d0%b0%d1%81%d1%82%d1%80%d0%be%d1%84%d1%83">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>В Grafana в web ui набросал alert-ы и присоединил их к &lt;a href="https://gist.github.com/ilap/cb6d512694c3e4f2427f85e4caec8ad7">Telegram-боту&lt;/a>. Просто и удобно.&lt;/p>
+&lt;h2 id="что-получилось" >Что получилось
+&lt;span>
+&lt;a href="#%d1%87%d1%82%d0%be-%d0%bf%d0%be%d0%bb%d1%83%d1%87%d0%b8%d0%bb%d0%be%d1%81%d1%8c">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>&lt;img src="images/all_schema.png" alt="Deployment схема мониторинга">&lt;/p>
 &lt;p>Grafana, Prometheus и Loki поместились на сервере 1 CPU/1 Gb RAM. Едят мало, на сервере остался хороший запас по ресурсам. Предвижу, что могут быть проблемы при увеличении количества логов и Loki придётся мигрировать на отдельный сервер. С Prometheus и Grafana могут начаться приколы, когда захочется строить графики за большие промежутки времени, но тут достаточно сделать строгие retention политики.&lt;/p>
 &lt;p>Если хочется пощупать этот стек, то добрые люди выложили в интернетах &lt;a href="https://github.com/shadinua/demo-grafana-loki-prometheus/blob/master/docker-compose.yml">docker-compose&lt;/a>.&lt;/p></description></item><item><title>Еженедельный обзор № 7</title><link>https://blog.ustits.dev/posts/weekly-7/</link><pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate><guid>https://blog.ustits.dev/posts/weekly-7/</guid><description>&lt;p>&lt;strong>&lt;a href="https://www.quastor.org/p/how-whatsapp-scaled-to-1-billion">[Статья] How WhatsApp scaled to 1 billion users with only 50 engineers&lt;/a>&lt;/strong>&lt;/p>
 &lt;blockquote>
@@ -110,17 +135,27 @@
 &lt;p>&lt;img src="https://blog.ustits.dev/img/bonsaibrowser2.png" alt="Workspace-ы">&lt;/p></description></item><item><title/><link>https://blog.ustits.dev/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.ustits.dev/about/</guid><description>&lt;p>Йо!&lt;/p>
 &lt;p>Руслан, пишу бекенды, в основном на Kotlin и Java.&lt;/p>
 &lt;p>Чем интересуюсь и в чем имею опыт:&lt;/p>
-&lt;p>&lt;img src="https://blog.ustits.dev/img/specialist.jpeg" alt="Specialist mind-map">&lt;/p></description></item><item><title/><link>https://blog.ustits.dev/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.ustits.dev/projects/</guid><description>&lt;h1 id="krefty">krefty&lt;/h1>
-&lt;p>&lt;a href="https://github.com/ustits/krefty">Github&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://blog.ustits.dev/img/specialist.jpeg" alt="Specialist mind-map">&lt;/p></description></item><item><title/><link>https://blog.ustits.dev/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.ustits.dev/projects/</guid><description>&lt;h1 id="krefty" >krefty
+&lt;span>
+&lt;a href="#krefty">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>&lt;a href="https://github.com/ustits/krefty">Github&lt;/a>&lt;/p>
 &lt;p>Экспериментальный DSL для &lt;a href="https://en.wikipedia.org/wiki/Refinement_type">Refined типов&lt;/a> на Kotlin.&lt;/p>
-&lt;h1 id="dinf">dinf&lt;/h1>
-&lt;p>&lt;a href="https://dinf.ustits.dev">Сайт&lt;/a> и &lt;a href="https://github.com/ustits/dinf">Github&lt;/a>&lt;/p>
+&lt;h1 id="dinf" >dinf
+&lt;span>
+&lt;a href="#dinf">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>&lt;a href="https://dinf.ustits.dev">Сайт&lt;/a> и &lt;a href="https://github.com/ustits/dinf">Github&lt;/a>&lt;/p>
 &lt;p>Инструмент для вдохновения dungeon master-ов и других творческих деятелей путем генерации случайных данных.&lt;/p>
-&lt;h2 id="anyra">anyra&lt;/h2>
-&lt;p>&lt;a href="https://github.com/ustits/anyra">Github&lt;/a>&lt;/p>
-&lt;p>Сервер и CLI утилита с различными видами рандомизации.&lt;/p>
-&lt;hr>
-&lt;h1 id="архив">Архив&lt;/h1>
-&lt;h1 id="rando">rando&lt;/h1>
-&lt;p>&lt;a href="https://github.com/ustits/rando">Github&lt;/a>&lt;/p>
-&lt;p>Устав от приоритизация, сделал тудушник, который выбирает 1-у рандомную задачу и позволяет работать только над ней. Эксперимент был забавный, но непрактичный.&lt;/p></description></item></channel></rss>
+&lt;h2 id="anyra" >anyra
+&lt;span>
+&lt;a href="#anyra">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>&lt;a href="https://github.com/ustits/anyra">Github&lt;/a>&lt;/p>
+&lt;p>Сервер и CLI утилита с различными видами рандомизации.&lt;/p></description></item></channel></rss>
