@@ -6,9 +6,9 @@ Experimental DSL for [Refined types](https://en.wikipedia.org/wiki/Refinement_ty
 
 # dinf
 
-[Website](https://dinf.ustits.dev) and [Github](https://github.com/ustits/dinf) 
+[Github](https://github.com/ustits/dinf) 
 
-A tool to inspire dungeon masters and other creative persons by generating random data.
+A tool to inspire dungeon masters and other creative persons by generating random data. Mostly a playground to try different kinds of programming and frameworks.
 
 # anyra 
 
