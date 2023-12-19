@@ -27,15 +27,15 @@ params:
     enabled: false
   social:
     - id: github
-      name: ustits
+      name: ustitc
     - id: twitter
-      name: r_ustits
+      name: ustitc
     - id: telegram
-      name: ustits
+      name: ustitc
     - id: linkedin
-      name: ustits
+      name: ustitc
     - id: goodreads
-      url: 'https://www.goodreads.com/ustits'
+      url: 'https://www.goodreads.com/ustitc'
 
 defaultContentLanguage: "ru"
 languages:
