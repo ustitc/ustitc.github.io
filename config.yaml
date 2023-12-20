@@ -37,7 +37,7 @@ params:
     - id: goodreads
       url: 'https://www.goodreads.com/ustitc'
 
-defaultContentLanguage: "ru"
+defaultContentLanguage: "en"
 languages:
   ru:
     languageName: "Русский"
@@ -60,13 +60,13 @@ languages:
           weight: 3
         - name: CV
           identifier: cv
-          url: /cv/ustits_cv.pdf
+          url: /cv/ruslan_ustitc_cv.pdf
           weight: 4
   en:
     languageName: "English"
-    title: "Ustits's DevBlog"
+    title: "Ustitc's DevBlog"
     params:
-      author: "Ruslan Ustits"
+      author: "Ruslan Ustitc"
     menu:
       main:
         - name: Articles
@@ -83,7 +83,7 @@ languages:
           weight: 3
         - name: CV
           identifier: cv
-          url: /cv/ustits_cv.pdf
+          url: /cv/ruslan_ustitc_cv.pdf
           weight: 4
 
 markup:
