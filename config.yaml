@@ -8,7 +8,7 @@ params:
   description: ""
   dateFormat: "2006-01-02"
   paginationSinglePost: false
-  style: light
+  style: auto
   readMore: false
   disableSummary: true
   toc: false
@@ -41,7 +41,7 @@ defaultContentLanguage: "en"
 languages:
   ru:
     languageName: "Русский"
-    title: "DevБлог Устица"
+    title: "Блог Устица"
     params:
       author: "Руслан Устиц"
     menu:
@@ -64,12 +64,12 @@ languages:
           weight: 4
   en:
     languageName: "English"
-    title: "Ustitc's DevBlog"
+    title: "Ustitc's Blog"
     params:
       author: "Ruslan Ustitc"
     menu:
       main:
-        - name: Articles
+        - name: Posts
           identifier: posts
           url: /
           weight: 1
