@@ -8,7 +8,7 @@ params:
   description: ""
   dateFormat: "2006-01-02"
   paginationSinglePost: false
-  style: auto
+  style: dark-without-switcher
   readMore: false
   disableSummary: true
   toc: false
