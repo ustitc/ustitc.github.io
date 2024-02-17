@@ -8,13 +8,13 @@ params:
   description: ""
   dateFormat: "2006-01-02"
   paginationSinglePost: false
-  style: dark-without-switcher
+  style: light
   readMore: false
   disableSummary: true
   toc: false
   tocWordCount: 300
   copyCodeButton: true
-  rssAsSocialIcon: false
+  rssAsSocialIcon: true
   mathjax: false
   utterancesRepo: ""
   utterancesTheme: ""
@@ -87,6 +87,5 @@ languages:
           weight: 4
 
 markup:
-  goldmark:
-    renderer:
-      unsafe: true
+  highlight:
+    noClasses: false
