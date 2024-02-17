@@ -1,3 +1,4 @@
 [submodule "themes/anubis"]
 	path = themes/anubis
 	url = https://github.com/ustitc/hugo-theme-anubis.git
+	branch = main
