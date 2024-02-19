@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ustitc's Blog</title><link>https://ustitc.me/</link><description>Ustitc's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://ustitc.me/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://ustitc.me/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ustitc.me/about/</guid><description>&lt;p>Yo!&lt;/p>
 &lt;p>Ruslan, developing backends, mainly in Kotlin and Java.&lt;/p>
 &lt;p>In what I am interested and experienced in:&lt;/p>
-&lt;p>&lt;img src="https://ustitc.me/img/specialist.jpeg" alt="Specialist mind-map">&lt;/p></description></item><item><title/><link>https://ustitc.me/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ustitc.me/projects/</guid><description>&lt;h1 id="krefty" >krefty
+&lt;p>&lt;img alt="Specialist mind-map" src="https://ustitc.me/img/specialist.jpeg">&lt;/p></description></item><item><title/><link>https://ustitc.me/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ustitc.me/projects/</guid><description>&lt;h1 id="krefty" >krefty
 &lt;span>
 &lt;a href="#krefty">
 &lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
@@ -9,14 +9,14 @@
 &lt;/span>
 &lt;/h1>&lt;p>&lt;a href="https://github.com/ustits/krefty">Github&lt;/a>&lt;/p>
 &lt;p>Experimental DSL for &lt;a href="https://en.wikipedia.org/wiki/Refinement_type">Refined types&lt;/a> in Kotlin.&lt;/p>
-&lt;h1 id="dinf" >dinf
+&lt;h1 id="dinfio" >dinf.io
 &lt;span>
-&lt;a href="#dinf">
+&lt;a href="#dinfio">
 &lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
 &lt;/a>
 &lt;/span>
-&lt;/h1>&lt;p>&lt;a href="https://github.com/ustits/dinf">Github&lt;/a>&lt;/p>
-&lt;p>A tool to inspire dungeon masters and other creative persons by generating random data. Mostly a playground to try different kinds of programming and frameworks.&lt;/p>
+&lt;/h1>&lt;p>&lt;a href="https://dinf.io">Website&lt;/a>&lt;/p>
+&lt;p>A tool to inspire dungeon masters and other creative persons by generating random data.&lt;/p>
 &lt;h1 id="anyra" >anyra
 &lt;span>
 &lt;a href="#anyra">
