@@ -214,7 +214,6 @@ hr {
 
 .common-header {
     padding-bottom: 1.5em;
-    border-bottom: thin solid var(--hr-color);
 }
 
 header a {
@@ -240,12 +239,23 @@ header h2 {
     align-items: center;
     justify-content: space-between;
     vertical-align: middle;
-    margin-top: 1em;
+    margin-top: 1em
+}
+
+.header-top ul {
+    margin-top: 0;
+    margin-bottom: 0
 }
 
 .site-title {
     display: inline;
     white-space: nowrap;
+    margin-top: 0;
+    font-size: 16px;
+}
+
+header nav {
+    font-size: 16px;
 }
 
 header nav:not(:empty){
@@ -262,10 +272,10 @@ header nav a {
 }
 
 /* Social icons */
+
 .social-icons {
     display: inline;
-    margin: 1em 0 0 3em;
-    padding: 0;
+    padding-right: 3em;
     list-style-type: none;
 }
 
@@ -274,12 +284,10 @@ header nav a {
 }
 
 .social-icons li:not(:first-of-type) {
-    margin-left: 0.5em;
+    margin-left: .5em;
 }
 
-.social-icons a:hover,
-.social-icons a:focus,
-.social-icons a:active {
+.social-icons a:hover,.social-icons a:focus,.social-icons a:active {
     color: inherit;
     border-bottom: none;
     text-decoration: none;
@@ -289,10 +297,29 @@ header nav a {
     display: inline-block;
     height: 1.15rem;
     width: 1.15rem;
-    top: 0.15rem;
+    top: .15rem;
     position: relative;
 }
 
+ul.language-select {
+    display: inline;
+    list-style: none;
+    padding-left: 3em;
+    font-size: 16px;
+}
+
+ul.language-select>li {
+    display: inline;
+    margin: 0;
+}
+
+ul.language-select>li+li::before {
+    content: " | ";
+}
+
+.language-selected {
+    color: var(--language-selected);
+}
 
 /* Pages */
 main h1 {
@@ -665,6 +692,7 @@ code.has-jax {
 .pagination-item {
     background: var(--pagination-bg-color);
     padding: 0.75em 0.75em;
+    font-size: 16px;
 }
 
 .pagination-item a {
@@ -694,7 +722,6 @@ code.has-jax {
 /* Footer */
 
 .common-footer {
-    border-top: thin solid var(--hr-color);
     padding-top: 1.5em;
     margin-top: 3em;
     font-size: 16px;
@@ -707,18 +734,9 @@ code.has-jax {
     justify-content: space-between;
 }
 
-ul.language-select, ul.footer-menu {
-    padding-left: 0;
-    list-style: none;
-    display: flex;
-}
-
-ul.language-select > li, ul.footer-menu > li {
-    margin-right: 1em;
-}
-
 .theme-switcher {
     cursor: pointer;
+    display: inline
 }
 
 .theme-switcher-svg {
@@ -820,6 +838,29 @@ ul.language-select > li, ul.footer-menu > li {
 
     .post-pagination .pagination-item {
         max-width: 10em;
+    }
+
+    .header-top {
+        display: block
+    }
+
+    .header-top-left {
+        display: flex;
+        justify-content: space-between
+    }
+
+    .header-top-right {
+        display: flex;
+        justify-content: space-between;
+        padding-top: .5em
+    }
+
+    .language-select {
+        padding: 0
+    }
+
+    .social-icons {
+        padding: 0
     }
 }
 

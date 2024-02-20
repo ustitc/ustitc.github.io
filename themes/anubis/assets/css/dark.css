@@ -1,9 +1,9 @@
-/* dark.css */ 
+/* dark.css */
 --font-color: #eee;
 --bg-color: #212121;
 
 --link-color:#599ada;
---link-state-color:#ff5858;
+--link-state-color:#fa5589;
 --link-state-border-color: rgba(238, 54, 54, 0.5);
 
 --thead-bg-color: #343a40;
@@ -28,6 +28,9 @@
 
 --svg-color: #ccc;
 --svg-state-color:#ff5858;
+
+--language-selected: grey;
+/*}*/
 
 /* syntax catppuccin-macchiato */
 /* Background */ .bg { color: #cad3f5; background-color: #24273a; }

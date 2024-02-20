@@ -4,7 +4,7 @@
     --bg-color: #fff;
 
     --link-color:#1d60a3;
-    --link-state-color:#a31d1d;
+    --link-state-color:#da4e6a;
     --link-state-border-color: rgba(163, 29, 29, .5);
 
     --thead-bg-color: lightgrey;
@@ -29,6 +29,8 @@
 
     --svg-color: #333;
     --svg-state-color: #a31d1d;
+
+    --language-selected: grey
 }
 
 /* syntax catppuccin-latte */

@@ -28,20 +28,14 @@ params:
   social:
     - id: github
       name: ustitc
-    - id: twitter
-      name: ustitc
-    - id: telegram
-      name: ustitc
     - id: linkedin
       name: ustitc
-    - id: goodreads
-      url: 'https://www.goodreads.com/ustitc'
 
 defaultContentLanguage: "en"
 languages:
   ru:
     languageName: "Русский"
-    title: "Блог Устица"
+    title: "Руслан Устиц"
     params:
       author: "Руслан Устиц"
     menu:
@@ -64,7 +58,7 @@ languages:
           weight: 4
   en:
     languageName: "English"
-    title: "Ustitc's Blog"
+    title: "Ruslan Ustitc"
     params:
       author: "Ruslan Ustitc"
     menu:
