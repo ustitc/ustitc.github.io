@@ -64,7 +64,7 @@ section {
 }
 
 .container {
-    max-width: 42em;
+    max-width: 42rem;
     margin: 0 auto;
 }
 
@@ -167,6 +167,7 @@ p code {
     padding: 0.1em;
     border-radius: 4px;
     color: #fe640b;
+    font-size: 0.85em;
 }
 
 code,
