@@ -1,0 +1,14 @@
+<div class="highlight">
+    {{- if transform.CanHighlight .Type }}
+    <pre tabindex="0" class="chroma"><code class="language-{{ .Type }}" data-lang="{{ .Type }}">
+    {{- with transform.HighlightCodeBlock . -}}
+      {{ .Inner }}
+    {{- end -}}
+    <span class="code-language">{{ .Type }}</span></code></pre>
+    {{- else }}
+    <pre tabindex="0"><code class="language-{{ .Type }}" data-lang="{{ .Type }}">
+    {{ .Inner }}
+    <span class="code-language">{{ .Type }}</span>
+    </code></pre>
+    {{- end }}
+</div>
