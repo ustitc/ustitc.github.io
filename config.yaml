@@ -11,7 +11,7 @@ params:
   style: light
   readMore: false
   disableSummary: true
-  toc: false
+  toc: true
   tocWordCount: 300
   copyCodeButton: true
   rssAsSocialIcon: true
