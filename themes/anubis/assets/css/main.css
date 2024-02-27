@@ -31,7 +31,7 @@
 
 /* Basic */
 html {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Alegreya Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
     /* 1 */
     -ms-text-size-adjust: 100%;
     /* 2 */
@@ -163,11 +163,9 @@ pre {
     border-radius: 5px;
 }
 
-p code {
-    padding: 0.1em;
-    border-radius: 4px;
-    color: #fe640b;
-    font-size: 0.85em;
+code {
+    padding-right: 0.2em;
+    padding-left: 0.2em;
 }
 
 code,
@@ -175,14 +173,16 @@ pre,
 kbd {
     color: var(--pre-color);
     background-color: var(--pre-bg-color);
-    font-size: 0.90em;
+    font-size: 0.85em;
     font-family: "Fira Code",monospace;
     line-height: 154%;
+    border-radius: 4px;
 }
 
 pre code, pre kbd {
     color: inherit;
     background-color: inherit;
+    padding: 0;
 }
 
 /* Styles */
@@ -351,15 +351,11 @@ main h1 {
 /* Articles */
 
 .content {
-    font-family: "Vollkorn","PT Serif",Georgia,serif;
+    font-family: "Alegreya","PT Serif",Georgia,serif;
 }
 
 #TableOfContents {
-    font-family: "Vollkorn","PT Serif",Georgia,serif;
-}
-
-.post-title {
-    font-family: "Vollkorn","PT Serif",Georgia,serif;
+    font-family: "Alegreya","PT Serif",Georgia,serif;
 }
 
 .post-header {
