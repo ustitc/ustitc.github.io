@@ -41,11 +41,12 @@ html {
 
 body {
     margin: 0;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    background-image: url("/stardust.png");
     color: var(--font-color);
-    background: var(--bg-color);
+    background-color: var(--bg-color);
 }
 
 article,
@@ -194,7 +195,7 @@ blockquote {
 }
 
 p {
-    margin-top: 1.0em;
+    margin-top: 1.2em;
     margin-bottom: 1.0em;
 }
 
@@ -352,6 +353,7 @@ main h1 {
 
 .content {
     font-family: "Alegreya","PT Serif",Georgia,serif;
+    font-size: 18px;
 }
 
 #TableOfContents {

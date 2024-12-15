@@ -37,8 +37,4 @@
     {{ if and (.Site.Params.paginationSinglePost) (ne .Type "page") }}
         {{ partial "post-pagination.html" . }}
     {{ end }}
-
-    {{ if not .Params.disableComments }}
-        {{ partial "comments.html" . }}
-    {{ end }}
 {{ end }}

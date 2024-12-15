@@ -4,58 +4,23 @@ paginate: 5
 enableRobotsTXT: true
 
 params:
-  email: "ustitsruslan@gmail.com"
+  email: "ruslan@ustitc.me"
   description: ""
   dateFormat: "2006-01-02"
   paginationSinglePost: false
-  style: light
+  style: dark-without-switcher
   readMore: false
   disableSummary: true
   toc: true
   tocWordCount: 300
   copyCodeButton: true
   rssAsSocialIcon: true
-  mathjax: false
-  utterancesRepo: ""
-  utterancesTheme: ""
-  utterancesIssue: ""
-  utterancesLabel: ""
-  graphcommentId: ""
-  isso:
-    enabled: false
-  UmamiAnalytics:
-    enabled: false
   social:
     - id: github
-      name: ustitc
-    - id: linkedin
       name: ustitc
 
 defaultContentLanguage: "en"
 languages:
-  ru:
-    languageName: "Русский"
-    title: "Руслан Устиц"
-    params:
-      author: "Руслан Устиц"
-    menu:
-      main:
-        - name: Статьи
-          identifier: posts
-          url: /
-          weight: 1
-        - name: Проекты
-          identifier: projects
-          url: /projects/
-          weight: 2
-        - name: Обо мне
-          identifier: about
-          url: /about/
-          weight: 3
-        - name: CV
-          identifier: cv
-          url: /cv/ruslan_ustitc_cv.pdf
-          weight: 4
   en:
     languageName: "English"
     title: "Ruslan Ustitc"
@@ -63,22 +28,10 @@ languages:
       author: "Ruslan Ustitc"
     menu:
       main:
-        - name: Posts
-          identifier: posts
-          url: /
+        - name: Blog
+          identifier: blog
+          url: /blog/
           weight: 1
-        - name: Projects
-          identifier: projects
-          url: /projects/
-          weight: 2
-        - name: About me
-          identifier: about
-          url: /about/
-          weight: 3
-        - name: CV
-          identifier: cv
-          url: /cv/ruslan_ustitc_cv.pdf
-          weight: 4
 
 markup:
   highlight:
