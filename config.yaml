@@ -14,7 +14,6 @@ params:
   toc: true
   tocWordCount: 300
   copyCodeButton: true
-  rssAsSocialIcon: true
   social:
     - id: github
       name: ustitc

@@ -54,7 +54,6 @@ aside,
 details,
 figcaption,
 figure,
-footer,
 header,
 hgroup,
 main,
@@ -717,30 +716,6 @@ code.has-jax {
     max-width: 16em;
 }
 
-/* Footer */
-
-.common-footer {
-    padding-top: 1.5em;
-    margin-top: 3em;
-    font-size: 16px;
-}
-
-.common-footer-bottom {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.theme-switcher {
-    cursor: pointer;
-    display: inline
-}
-
-.theme-switcher-svg {
-    fill: currentColor;
-}
-
 .h-card {
     display: none;
 }
@@ -861,18 +836,3 @@ code.has-jax {
         padding: 0
     }
 }
-
-{{ range site.Params.customCSS }}
-    {{ $custom := resources.Get . }}
-    {{ $custom.Content }}
-{{ end }}
-
-{{ if site.Params.isso.enabled }}
-  #isso-thread .textarea {
-    color: #000;
-  }
-  #isso-thread .isso-feedlink {
-    position: relative;
-    z-index: 1;
-  }
-{{ end }}

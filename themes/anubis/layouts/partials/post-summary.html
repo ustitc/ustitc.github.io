@@ -3,7 +3,6 @@
         <header>
             <h1 class="p-name post-title{{ if .Params.favorite }} favorite{{end}}{{ if .Params.draft }} draft{{end}}"><a class="u-url" href="{{ .RelPermalink }}">{{ trim .Title " " | markdownify }}</a></h1>
         </header>
-        {{ partial "post-language-switcher.html" . }}
     </div>
 
     {{ if not .Site.Params.disableSummary }}

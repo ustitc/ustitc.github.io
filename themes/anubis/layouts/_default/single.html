@@ -11,8 +11,6 @@
         <div class="post-header">
             <header>
                 <h1 class="p-name post-title{{ if .Params.favorite }} favorite{{end}}{{ if .Params.draft }} draft{{end}}">{{ trim .Title  " " | markdownify }}</h1>
-
-                {{ partial "post-language-switcher.html" . }}
             </header>
         </div>
         {{ partial "post-info.html" . }}
@@ -32,9 +30,5 @@
                 {{ end }}
             </ul>
         {{ end }}
-    {{ end }}
-
-    {{ if and (.Site.Params.paginationSinglePost) (ne .Type "page") }}
-        {{ partial "post-pagination.html" . }}
     {{ end }}
 {{ end }}
