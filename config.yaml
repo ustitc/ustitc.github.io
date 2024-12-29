@@ -10,7 +10,6 @@ params:
   disableSummary: true
   toc: true
   tocWordCount: 300
-  copyCodeButton: true
   social:
     - id: github
       name: ustitc

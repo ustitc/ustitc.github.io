@@ -23,9 +23,7 @@
 
 {{ partial "resource.html" (dict "context" . "type" "css" "filename" "css/main.css") }}
 
-{{ if .Site.Params.copyCodeButton | default true }}
-    {{ partial "resource.html" (dict "context" . "type" "js" "filename" "js/copy-code.js") }}
-{{ end }}
+{{ partial "resource.html" (dict "context" . "type" "js" "filename" "js/copy-code.js") }}
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
