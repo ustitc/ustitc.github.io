@@ -1,5 +1,4 @@
 baseUrl: "https://ustitc.me"
-paginate: 5
 enableRobotsTXT: true
 
 params:
@@ -7,7 +6,6 @@ params:
   description: ""
   dateFormat: "2006-01-02"
   paginationSinglePost: false
-  style: dark-without-switcher
   readMore: false
   disableSummary: true
   toc: true
