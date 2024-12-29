@@ -1,5 +1,4 @@
 baseUrl: "https://ustitc.me"
-theme: "anubis"
 paginate: 5
 enableRobotsTXT: true
 
