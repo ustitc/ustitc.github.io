@@ -32,16 +32,15 @@
 
 /* Basic */
 html {
-    font-family: "Alegreya Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
 
 body {
-    background-image: url("/stardust.png");
     background-color: var(--bg-color);
     color: var(--font-color);
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
     margin: 0;
 
@@ -72,6 +71,10 @@ main {
 }
 
 /* Headers */
+h1,h2,h3 {
+    margin-top: 2em;
+}
+
 h1 {
     font-size: 1.35em;
 }
@@ -326,7 +329,6 @@ main h1 {
     font-weight: normal;
     line-height: 1.1em;
     margin-bottom: 0.5em;
-    font-weight: 600;
 }
 
 .post-short-list:first-of-type {
@@ -350,12 +352,12 @@ main h1 {
 /* Articles */
 
 .content {
-    font-family: "Alegreya", "PT Serif", Georgia, serif;
+    font-family: "PT Serif", Georgia, serif;
     font-size: 18px;
 }
 
 #TableOfContents {
-    font-family: "Alegreya", "PT Serif", Georgia, serif;
+    font-family: "PT Serif", Georgia, serif;
 }
 
 .post-header {
