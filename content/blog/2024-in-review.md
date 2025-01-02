@@ -26,14 +26,14 @@ the same feelings that I had playing Witcher and Death Stranding on PS4. The big
 Killing Tyranids became routine after several hours, and the plot was not engaging. Multiplayer might be more
 engaging, but I am not willing to pay for a PS Plus subscription for that.
 
-However, there was an exception: [It Takes Two](https://www.youtube.com/watch?v=GAWHzGNcTEw). 
+However, there was an exception: [It Takes Two](https://www.youtube.com/watch?v=GAWHzGNcTEw).
 The game is weird in the best way, and Dr. Hakim is magnificent.
 
 ![Dr. Hakim talks about Collaboration](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWFiaWNyb2F6dHdtY29mbjBoYzgwN2RuNnk5Zmk5bjB2b3Z1bWtobSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DvmH2vtmFWQdBX9ch1/giphy.gif)
 
 ## Software
 
-I gave up and moved to the Apple ecosystem. Having device synchronization and the ability to use family sharing became 
+I gave up and moved to the Apple ecosystem. Having device synchronization and the ability to use family sharing became
 more important than being a digital hermit. Obsidian was replaced with Notes and KeePassXC with Passwords.
 
 I still love Obsidian and use it at work, but next year I plan to use simpler tools. I realized that my workflow is
@@ -55,15 +55,33 @@ them as "puzzles with action-like mechanics".
 ## Board game
 
 [Terraforming Mars](https://boardgamegeek.com/boardgame/167791/terraforming-mars). After a year of being nomads and
-playing board games on an iPad, we finally settled and bought a physical copy. Oh boy, what a pleasure it is to hold 
+playing board games on an iPad, we finally settled and bought a physical copy. Oh boy, what a pleasure it is to hold
 the cards.
+
+## TV Shows
+
+**Carol & The End of the World**
+
+[IMDB link](https://www.imdb.com/title/tt29629770/)
+
+This is an animated series that tickled my existential crisis. It explores how ordinary people cope with the
+realisation that the end of the world is near.
+
+**Scavengers Reign**
+
+[IMDB link](https://www.imdb.com/title/tt21056886/)
+
+A sci-fi series with fascinating world-building that leaves you with plenty of ideas and unanswered questions after
+watching.
+
+The first few episodes are a bit odd, but then it becomes truly gripping.
 
 ## Books
 
 **The Weirdness of the World**
 
 I became tired and frustrated from feeling stupid after reading Kant's Critique of Pure Reason, so I
-switched to modern philosophy authors. I started this book several times, postponed it throughout the year, but 
+switched to modern philosophy authors. I started this book several times, postponed it throughout the year, but
 eventually finished and enjoyed it. Philosophy is fun and makes you feel weird about the world.
 
 **The Language Instinct: How the Mind Creates Language**
