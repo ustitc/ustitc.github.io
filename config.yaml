@@ -13,6 +13,10 @@ params:
 title: "Ruslan Ustitc"
 
 markup:
+  goldmark:
+    renderHooks:
+      link:
+        enableDefault: true
   highlight:
     noClasses: false
 
