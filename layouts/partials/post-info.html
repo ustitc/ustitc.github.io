@@ -10,13 +10,6 @@
         <time datetime="{{ .Params.date.Format $machineDateFormat }}">
             {{- .Params.date.Format $dateFormat -}}
         </time>
-        {{ if ne .Params.date .Params.lastMod -}}
-        [{{ i18n "lastMod" }}
-        <time datetime="{{ .Params.lastMod.Format $machineDateFormat }}">
-            {{- .Params.lastMod.Format $dateFormat -}}
-        </time>
-        ]
-        {{- end }}
     </div>
     {{ end }}
 
