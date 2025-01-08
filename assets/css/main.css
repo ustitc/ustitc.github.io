@@ -291,9 +291,9 @@ header nav a {
 
 .inline-svg {
     display: inline-block;
-    height: 1.15rem;
-    width: 1.15rem;
-    top: .15rem;
+    height: 1rem;
+    width: 1rem;
+    top: .20rem;
     position: relative;
 }
 

@@ -6,9 +6,6 @@ params:
   author: "Ruslan Ustitc"
   description: ""
   dateFormat: "2006-01-02"
-  social:
-    - id: github
-      name: ustitc
 
 title: "Ruslan Ustitc"
 
