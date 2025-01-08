@@ -3,31 +3,24 @@ enableRobotsTXT: true
 
 params:
   email: "ruslan@ustitc.me"
+  author: "Ruslan Ustitc"
   description: ""
   dateFormat: "2006-01-02"
-  paginationSinglePost: false
-  readMore: false
-  disableSummary: true
   toc: false
   tocWordCount: 300
   social:
     - id: github
       name: ustitc
 
-defaultContentLanguage: "en"
-languages:
-  en:
-    languageName: "English"
-    title: "Ruslan Ustitc"
-    params:
-      author: "Ruslan Ustitc"
-    menu:
-      main:
-        - name: Blog
-          identifier: blog
-          url: /blog/
-          weight: 1
+title: "Ruslan Ustitc"
 
 markup:
   highlight:
     noClasses: false
+
+menu:
+  main:
+    - name: Blog
+      identifier: blog
+      url: /blog/
+      weight: 1

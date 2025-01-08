@@ -1,5 +1,4 @@
 :root {
-    /* dark.css */
     --font-color: #eee;
     --bg-color: #212121;
 
@@ -19,15 +18,10 @@
     --bq-color: #ccc;
     --hr-color: #333;
 
-    --pagination-bg-color: #373737;
-    --pagination-link-color: #b6b6b6;
-
     --post-info-color: grey;
 
     --svg-color: #ccc;
     --svg-state-color: #ff5858;
-
-    --language-selected: grey;
 }
 
 /* Basic */
@@ -303,26 +297,6 @@ header nav a {
     position: relative;
 }
 
-ul.language-select {
-    display: inline;
-    list-style: none;
-    padding-left: 3em;
-    font-size: 16px;
-}
-
-ul.language-select > li {
-    display: inline;
-    margin: 0;
-}
-
-ul.language-select > li + li::before {
-    content: " | ";
-}
-
-.language-selected {
-    color: var(--language-selected);
-}
-
 /* Pages */
 main h1 {
     margin-top: 1em;
@@ -395,24 +369,6 @@ main h1 {
 
 .post-short-list .post-title {
     display: inline;
-}
-
-.post-title.favorite::after {
-    content: "☆";
-    display: inline-block;
-    margin-left: 0.2em;
-}
-
-.post-title.draft::after {
-    content: "✎";
-    display: inline-block;
-    margin-left: 0.2em;
-}
-
-.post-title.favorite.draft::after {
-    content: "☆ ✎";
-    display: inline-block;
-    margin-left: 0.2em;
 }
 
 article:not(:last-of-type) {
@@ -534,31 +490,8 @@ article header h1 a {
     margin-bottom: 1.5em;
 }
 
-.post-taxonomies {
-    display: inline;
-}
-
-.post-hidden-url {
-    display: none;
-}
-
-.post-hidden-author {
-    display: none;
-}
-
 .post-date {
     white-space: nowrap;
-}
-
-.post-categories {
-    display: inline;
-    list-style-type: none;
-    padding: 0;
-}
-
-.post-categories li {
-    display: inline;
-    margin-right: 1em;
 }
 
 .post-tags {
@@ -569,18 +502,6 @@ article header h1 a {
 }
 
 .post-tags li {
-    display: inline;
-    margin-right: 1em;
-}
-
-.post-authors {
-    display: inline;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.post-authors li {
     display: inline;
     margin-right: 1em;
 }
@@ -613,112 +534,11 @@ code.has-jax {
     font-size: 100%;
 }
 
-.read-more {
-    margin: 1em 0;
-}
-
-.divider {
-    border-top: thin solid var(--hr-color);
-    display: block;
-    height: 1px;
-    border: 0;
-    width: 25%;
-    margin: 1em auto;
-}
-
-.post-summary {
-    margin-top: 0.5em;
-    display: block;
-}
-
-.post-summary > p {
-    display: block;
-}
-
-.post-translations {
-    margin-left: 0.5em;
-    list-style: none;
-    padding: 0;
-    display: inline;
-    font-size: 14px;
-}
-
-.post-translations > li {
-    display: inline;
-}
-
-.post-translations > li:not(:last-child)::after {
-    content: "|";
-    display: inline-block;
-}
-
-.post-translations > li a {
-    color: var(--link-color);
-}
-
-.post-translations > li a:hover,
-.post-translations > li a:focus {
-    color: var(--link-state-color);
-}
-
-.read-next-title {
-    margin-bottom: 0;
-}
-
-.read-next-posts {
-    margin-top: 5px;
-    list-style-type: "- ";
-    padding-inline-start: 20px;
-}
-
 /* Other pages */
 .terms {
     list-style-type: none;
     padding: 0;
     line-height: 2em;
-}
-
-/* Pagination */
-
-.pagination {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 3em;
-    text-align: center;
-}
-
-.pagination-item {
-    background: var(--pagination-bg-color);
-    padding: 0.75em 0.75em;
-    font-size: 16px;
-}
-
-.pagination-item a {
-    color: var(--pagination-link-color);
-}
-
-.pagination-item a:hover,
-.pagination-item a:focus {
-    color: var(--link-state-color);
-}
-
-.disabled {
-    visibility: hidden;
-}
-
-.pagination-item a:hover, .pagination-item a:focus {
-    border-bottom: 0;
-}
-
-.post-pagination .pagination-item {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    max-width: 16em;
-}
-
-.h-card {
-    display: none;
 }
 
 /* Copy code  */
@@ -796,25 +616,6 @@ code.has-jax {
         word-wrap: break-word;
     }
 
-    .pagination-item {
-        padding: 0.5em 0.5em;
-        font-size: 14px;
-    }
-
-    .post-navigation {
-        background: var(--pagination-bg-color);
-        text-align: center;
-        padding: 0.5em 0;
-    }
-
-    .post-navigation a {
-        margin-left: 0.5em;
-    }
-
-    .post-pagination .pagination-item {
-        max-width: 10em;
-    }
-
     .header-top {
         display: block
     }
@@ -828,10 +629,6 @@ code.has-jax {
         display: flex;
         justify-content: space-between;
         padding-top: .5em
-    }
-
-    .language-select {
-        padding: 0
     }
 
     .social-icons {
