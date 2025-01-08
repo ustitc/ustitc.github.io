@@ -5,7 +5,7 @@
 <meta name="referrer" content="no-referrer-when-downgrade">
 
 <title>{{ if and (.Title) (not .IsHome) }}{{ .Title | markdownify }} - {{ end }}{{ .Site.Title | markdownify }}</title>
-<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}">
+<meta name="description" content="{{ .Description }}">
 
 {{ with .Keywords }}
     <meta name="keywords" content="{{ range $i, $e := . }}{{ if $i }},{{ end }}{{ $e }}{{ end }}">
